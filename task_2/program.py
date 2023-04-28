@@ -6,4 +6,4 @@ min_number = int(input('Введите минимум > '))
 max_number = int(input('Введите максимум > '))
 for i in range(len(lst)):
     if min_number <= lst[i] <= max_number:
-        print(i)
+        print(i, end = ' ')
